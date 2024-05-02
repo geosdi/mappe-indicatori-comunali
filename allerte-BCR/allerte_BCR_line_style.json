@@ -1,0 +1,68 @@
+{
+  "style_properties": [
+    {
+      "propertyKey": "Criticita",
+      "properties": [
+        {
+          "property": "color",
+          "values": [
+            {
+              "key": "Assenza di fenomeni significativi prevedibili / NESSUNA ALLERTA",
+              "value": "#90c985"
+            },
+            {
+              "key": "Ordinaria per rischio temporali / ALLERTA GIALLA",
+              "value": "#f8f865"
+            },
+            {
+              "key": "Ordinaria per rischio idrogeologico / ALLERTA GIALLA",
+              "value": "#f8f865"
+            },
+            {
+              "key": "Ordinaria per rischio idraulico / ALLERTA GIALLA",
+              "value": "#f8f865"
+            },
+            {
+              "key": "Moderata per rischio idrogeologico / ALLERTA ARANCIONE",
+              "value": "#f0bf01"
+            },
+            {
+              "key": "Moderata per rischio temporali / ALLERTA ARANCIONE",
+              "value": "#f0bf01"
+            },
+            {
+              "key": "Moderata per rischio idraulico / ALLERTA ARANCIONE",
+              "value": "#f0bf01"
+            },
+            {
+              "key": "Elevata per rischio idrogeologico / ALLERTA ROSSA",
+              "value": "#fd6767"
+            },
+            {
+              "key": "Elevata per rischio idraulico / ALLERTA ARANCIONE",
+              "value": "#fd6767"
+            }
+          ]
+        },
+        {
+          "property": "weight",
+          "values": [
+            {
+              "key": "*",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "property": "opacity",
+          "values": [
+            {
+              "key": "*",
+              "value": "1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
