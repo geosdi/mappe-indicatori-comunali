@@ -1,0 +1,78 @@
+{
+    "style_properties": [
+      {
+        "propertyKey": "densità_pop",
+        "properties": [
+            {
+                "property": "fillColor",
+                "values": [
+                  {
+                    "key": [0,50],
+                    "value": "#fff5f0"
+                  },
+                  {
+                    "key": [50,100],
+                    "value": "#fdd6c4"
+                  },
+                  {
+                    "key": [100,200],
+                    "value": "#fca486"
+                  },
+                  {
+                    "key": [200,500],
+                    "value": "#fb7050"
+                  },
+                  {
+                    "key": [500,1000],
+                    "value": "#ea372a"
+                  },
+                  {
+                    "key": [1000,5000],
+                    "value": "#ba1419"
+                  },
+                  {
+                    "key": [5000],
+                    "value": "#67000d"
+                  }
+                ]
+              },
+              {
+                "property": "weight",
+                "values": [
+                  {
+                    "key": "*",
+                    "value": "0.5"
+                  }
+                ]
+              },
+              {
+                "property": "opacity",
+                "values": [
+                  {
+                    "key": "*",
+                    "value": ".9"
+                  }
+                ]
+              },
+              {
+                "property": "fillOpacity",
+                "values": [
+                  {
+                    "key": "*",
+                    "value": ".5"
+                  }
+                ]
+              },
+              {
+                "property": "color",
+                "values": [
+                  {
+                    "key": "*",
+                    "value": "#cccccc"
+                  }
+                ]
+              }
+        ]
+      }
+    ]
+  }
