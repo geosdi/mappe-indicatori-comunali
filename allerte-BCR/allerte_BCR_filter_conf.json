@@ -1,0 +1,32 @@
+{
+  "form_groups": [
+    {
+      "fields": [
+        {
+          "field_type": "TEXT",
+          "placeholder": "Regione",
+          "binding_key": "Regione"
+        },
+        {
+          "field_type": "TEXT",
+          "placeholder": "Provincia",
+          "binding_key": "Provincia"
+        },
+        {
+          "field_type": "TEXT",
+          "placeholder": "Zona allerta",
+          "binding_key": "zona_allerta"
+        },
+		{
+          "field_type": "TEXT",
+          "placeholder": "Codice colore",
+          "binding_key": "codice_colore"
+        },
+        {
+          "field_type": "BUTTON"
+        }
+      ]
+    }
+  ],
+  "label_total": "Totale"
+}
