@@ -103,9 +103,7 @@
         "layers": [
           0
         ]
-      }
-	  ],
-	  "filters_type": [
+      },
 	  {
         "filter_function": "exactValue",
         "binding_key": "zona_allerta",
