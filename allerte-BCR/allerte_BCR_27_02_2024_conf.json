@@ -62,7 +62,10 @@
         },
 	{
           "name": "2023_superficie_kmq",
-          "label": "Superficie"
+          "label": "Superficie",
+	  "options": {
+            "suffix": "Kmq"
+          }
         },     
 	{
           "name": "zona_allerta",
@@ -82,7 +85,10 @@
         },         
 	{
           "name": "densità_pop",
-          "label": "Densità popolazione"
+          "label": "Densità popolazione",
+	  "options": {
+            "suffix": "ab/Kmq"
+          }
         }
 	 ]
   }
