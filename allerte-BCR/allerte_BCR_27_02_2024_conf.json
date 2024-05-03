@@ -1,4 +1,4 @@
-{
+a{
   "global_legend": "",
   "name": "BCR 27/02/2024 - Densità popolazione",
   "header_popup": " ",
@@ -81,7 +81,7 @@
         },
 	{
           "name": "indice_vecchiaia",
-          "label": "Indice di vecchiaia"
+          "label": "Indice di vecchiaia (media naz. 193.1)"
         },         
 	{
           "name": "densità_pop",
