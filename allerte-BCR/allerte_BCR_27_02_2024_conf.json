@@ -85,7 +85,7 @@
         },         
 	{
           "name": "densità_pop",
-          "label": "Densità popolazione",
+          "label": "Densità popolazione (media naz. 195 ab/Kmq)",
 	  "options": {
             "suffix": "ab/Kmq"
           }
