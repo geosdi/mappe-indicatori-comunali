@@ -24,15 +24,15 @@
             },
             {
               "key": "Moderata per rischio idrogeologico / ALLERTA ARANCIONE",
-              "value": "#f0bf01"
+              "value": "#f07c00"
             },
             {
               "key": "Moderata per rischio temporali / ALLERTA ARANCIONE",
-              "value": "#f0bf01"
+              "value": "#f07c00"
             },
             {
               "key": "Moderata per rischio idraulico / ALLERTA ARANCIONE",
-              "value": "#f0bf01"
+              "value": "#f07c00"
             },
             {
               "key": "Elevata per rischio idrogeologico / ALLERTA ROSSA",
