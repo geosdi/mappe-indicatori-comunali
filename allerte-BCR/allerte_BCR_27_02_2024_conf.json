@@ -99,6 +99,9 @@
   "filter_config": {
     "url": "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/allerte_BCR_filter_conf.json",
     "refresh": true,
+	       "excluded_layers": [
+      1
+    ],
     "filters_type": [
       {
         "filterFunction": "textInclude",
