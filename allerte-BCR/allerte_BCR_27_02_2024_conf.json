@@ -108,7 +108,7 @@
           "REGIONE"
         ],
         "layers": [
-          0
+          0,1
         ]
       },
       {
@@ -141,7 +141,7 @@
           "zona_allerta"
         ],
         "layers": [
-         0
+         0,1
         ]
       },
      {
@@ -149,10 +149,10 @@
         "binding_key": "codice_colore",
         "operator": "or",
         "filter_on_fields": [
-          "codice_colore"
+          "Criticita"
         ],
         "layers": [
-         0
+         0,1
         ]
       }
     ]
