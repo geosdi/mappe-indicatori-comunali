@@ -35,7 +35,7 @@
         },
 		{
           "key": "densità_pop",
-          "label": "- Dens pop"
+          "label": "Dens pop (ab/kmq)"
         }
        ]
     }
