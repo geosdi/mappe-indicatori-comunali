@@ -36,11 +36,11 @@
             },
             {
               "key": "Elevata per rischio idrogeologico / ALLERTA ROSSA",
-              "value": "#fd6767"
+              "value": "#ff0000"
             },
             {
               "key": "Elevata per rischio idraulico / ALLERTA ROSSA",
-              "value": "#fd6767"
+              "value": "#ff0000"
             }
           ]
         },
