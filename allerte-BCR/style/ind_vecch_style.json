@@ -1,0 +1,74 @@
+{
+    "style_properties": [
+      {
+        "propertyKey": "indice_vec",
+        "properties": [
+            {
+                "property": "fillColor",
+                "values": [
+                  {
+                    "key": [0,100],
+                    "value": "#f1eef6"
+                  },
+                  {
+                    "key": [100,200],
+                    "value": "#d7b5d8"
+                  },
+                  {
+                    "key": [100,200],
+                    "value": "#fca486"
+                  },
+                  {
+                    "key": [200,300],
+                    "value": "#df65b0"
+                  },
+                  {
+                    "key": [300,400],
+                    "value": "#dd1c77"
+                  },
+                  {
+                    "key": [400],
+                    "value": "#980043"
+                  }
+                ]
+              },
+              {
+                "property": "weight",
+                "values": [
+                  {
+                    "key": "*",
+                    "value": "0.5"
+                  }
+                ]
+              },
+              {
+                "property": "opacity",
+                "values": [
+                  {
+                    "key": "*",
+                    "value": ".9"
+                  }
+                ]
+              },
+              {
+                "property": "fillOpacity",
+                "values": [
+                  {
+                    "key": "*",
+                    "value": ".5"
+                  }
+                ]
+              },
+              {
+                "property": "color",
+                "values": [
+                  {
+                    "key": "*",
+                    "value": "#cccccc"
+                  }
+                ]
+              }
+        ]
+      }
+    ]
+  }
