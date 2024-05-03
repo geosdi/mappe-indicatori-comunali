@@ -59,6 +59,30 @@
         {
           "name": "REGIONE",
           "label": "Regione"
+        },
+	{
+          "name": "2023_superficie_kmq",
+          "label": "Superficie"
+        },     
+	{
+          "name": "zona_allerta",
+          "label": "Zona allerta"
+        },
+	{
+          "name": "2023_pop_res_tot",
+          "label": "Popolazione residente"
+        },
+	{
+          "name": "2023_pop_stra_tot",
+          "label": "Popolazione straniera"
+        },
+	{
+          "name": "indice_vecchiaia",
+          "label": "Indice di vecchiaia"
+        },         
+	{
+          "name": "densità_pop",
+          "label": "Densità popolazione"
         }
 	 ]
   }
