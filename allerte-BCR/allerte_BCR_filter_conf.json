@@ -12,6 +12,11 @@
           "placeholder": "Provincia",
           "binding_key": "Provincia"
         },
+	 {
+          "field_type": "TEXT",
+          "placeholder": "Comune",
+          "binding_key": "Comune"
+        },
         {
           "field_type": "TEXT",
           "placeholder": "Zona allerta",
