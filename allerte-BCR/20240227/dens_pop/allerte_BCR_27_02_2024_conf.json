@@ -16,14 +16,14 @@
   "today": {
     "attachment": [],
     "topo_json": [
-      "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/indicatori_comuni_BCR_27_02_24.geojson",
-      "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/20240227_1542_today_line.geojson"
+      "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/20240227/indicatori_comuni_BCR_27_02_24.geojson",
+      "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/20240227/20240227_1542_today_line.geojson"
     ],
     "html_description": ""
   },
   "style": [
-    "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/dens_pop_style.json",
-    "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/allerte_BCR_line_style.json"
+    "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/style/dens_pop_style.json",
+    "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/style/allerte_BCR_line_style.json"
   ],
     "leaflet": {
     "tooltip": [
