@@ -13,9 +13,19 @@
           "binding_key": "zona_allerta"
         },
 		{
-          "field_type": "TEXT",
+          "field_type": "MULTISELECT",
           "placeholder": "Codice colore",
-          "binding_key": "codice_colore"
+          "binding_key": "codice_colore",
+	  "options": [
+            {
+              "name": "Allerta rossa",
+              "value": "rossa"
+            },
+            {
+              "name": "Allerta arancione",
+              "value": "arancione"
+            }
+          ]	
         },
         {
           "field_type": "BUTTON"
