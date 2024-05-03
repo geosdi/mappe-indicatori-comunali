@@ -31,8 +31,7 @@
       "key": 0,
       "properties": [
        {
-          "key": "COMUNE",
-          "label": ""
+          "key": "COMUNE"
         },
 		{
           "key": "densità_pop",
