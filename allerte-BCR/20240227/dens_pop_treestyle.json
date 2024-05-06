@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "key": "0",
+      "label": "Comuni",
+      "filterKey": "densità_pop",
+      "filterValue": "*",
+      "expanded": true,
+      "visible": true,
+      "type": "default",
+      "children": [
+        {
+          "selectable": false,
+          "color": "#fff5f0",
+	      "description": "0-50 ab/kmq",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid; opacity:0.7"
+        },
+		{
+          "selectable": false,
+          "color": "#fdd6c4",
+	      "description": "50-100 ab/kmq",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid; opacity:0.7"
+        },
+		{
+          "selectable": false,
+          "color": "#fca486",
+	      "description": "100-200 ab/kmq",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid; opacity:0.7"
+        },
+		{
+          "selectable": false,
+          "color": "#fb7050",
+	      "description": "200-500 ab/kmq",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid; opacity:0.7"
+        },
+		{
+          "selectable": false,
+          "color": "#ea372a",
+	      "description": "500-1000 ab/kmq",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid; opacity:0.7"
+        },
+		{
+          "selectable": false,
+          "color": "#ba1419",
+	      "description": "1000-5000 ab/kmq",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid; opacity:0.7"
+        },
+		{
+          "selectable": false,
+          "color": "#67000d",
+	      "description": ">5000 ab/kmq",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid; opacity:0.7"
+        }
+      ]
+    },
+    {
+      "key": "1",
+      "label": "Zone allerta",
+      "filterKey": "SIGLA",
+      "filterValue": "*",
+      "expanded": true,
+      "visible": true,
+      "type": "default",
+      "children": [
+        {
+          "selectable": false,
+          "color": "#f07c00",
+		  "description": "Allerta arancione",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid"
+        },
+	  {
+          "selectable": false,
+          "color": "#ff0000",
+		  "description": "Allerta rossa",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid"
+        }    
+      ]
+     }
+  ]
+}
