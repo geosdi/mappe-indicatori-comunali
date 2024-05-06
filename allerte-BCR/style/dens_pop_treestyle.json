@@ -63,7 +63,7 @@
     {
       "key": "1",
       "label": "Zone allerta",
-      "filterKey": "SIGLA",
+      "filterKey": "Criticita",
       "filterValue": "*",
       "expanded": true,
       "visible": true,
