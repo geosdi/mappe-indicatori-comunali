@@ -2,7 +2,7 @@
   "nodes": [
     {
       "key": "0",
-      "label": "Accessibilità autostrade",
+      "label": "Access autostrade",
       "filterKey": "tempi_percorr_min_autos",
       "filterValue": "*",
       "expanded": true,
