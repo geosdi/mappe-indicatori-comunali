@@ -25,6 +25,7 @@
     "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/style/ind_vecch_style.json",
     "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/style/allerte_BCR_line_style.json"
   ],
+  "treeStyle": "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/style/ind_vecch_treestyle.json",
     "leaflet": {
     "tooltip": [
     {
