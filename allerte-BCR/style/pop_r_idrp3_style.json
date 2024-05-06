@@ -8,23 +8,23 @@
                 "values": [
                   {
                     "key": [0,1000],
-                    "value": "#fc5252"
+                    "value": "#fcfbfd"
                   },
                   {
                     "key": [1000,5000],
-                    "value": "#c9eac2"
+                    "value": "#dcdbec"
                   },
                   {
                     "key": [5000,15000],
-                    "value": "#020402"
+                    "value": "#a39fcb"
                   },
                   {
                     "key": [15000,25000],
-                    "value": "#2a924b"
+                    "value": "#6a51a3"
                   },
                   {
                     "key": [25000],
-                    "value": "#00441b"
+                    "value": "#528ccf"
                   }
                 ]
               },
