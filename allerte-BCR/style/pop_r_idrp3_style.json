@@ -7,24 +7,28 @@
                 "property": "fillColor",
                 "values": [
                   {
-                    "key": [0,1000],
+                    "key": [0,500],
                     "value": "#fcfbfd"
+                  },
+                    {
+                    "key": [500,1000],
+                    "value": "#e4e3f0"
                   },
                   {
                     "key": [1000,5000],
-                    "value": "#dcdbec"
+                    "value": "#e4e3f0"
                   },
                   {
                     "key": [5000,15000],
-                    "value": "#a39fcb"
+                    "value": "#8c88bf"
                   },
                   {
                     "key": [15000,25000],
-                    "value": "#6a51a3"
+                    "value": "#63439c"
                   },
                   {
                     "key": [25000],
-                    "value": "#528ccf"
+                    "value": "#3f007d"
                   }
                 ]
               },
