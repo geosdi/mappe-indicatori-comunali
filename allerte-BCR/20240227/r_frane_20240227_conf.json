@@ -1,0 +1,253 @@
+{
+  "global_legend": "",
+  "name": "Indicatori rischio: frane",
+  "header_popup": " ",
+  "strategy_features": "not_intersect",
+  "layers": [
+    {
+      "key": 0,
+      "label": "Comuni(dati assoluti)"
+    },
+    {
+      "key": 1,
+      "label": "Comuni(dati %)"
+    },
+    {
+      "key": 2,
+      "label": "Zone allerta"
+    }
+  ],
+  "today": {
+    "attachment": [],
+    "topo_json": [
+      "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/20240227/indicatori_comuni_BCR_27_02_24.geojson",
+      "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/20240227/indicatori_comuni_BCR_27_02_24.geojson",
+      "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/20240227/20240227_1542_today_line.geojson"
+    ],
+    "html_description": ""
+  },
+  "style": [
+    "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/style/pop_r_franep3p4_style.json",
+    "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/style/pop_r_franep3p4_perc_style.json",
+    "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/style/allerte_BCR_line_style.json"
+  ],
+    "leaflet": {
+    "tooltip": [
+    {
+      "key": 0,
+      "properties": [
+       {
+          "key": "COMUNE"
+        },
+		{
+          "key": "popfr_p3p4",
+          "label": "Pop area P3 e P4"
+        }
+       ]
+    },
+	{
+      "key": 1,
+      "properties": [
+       {
+          "key": "COMUNE"
+        },
+		{
+          "key": "popfrp3p4p",
+          "label": "%Pop area P3 e P4"
+        }
+       ]
+    }
+   ]
+  },
+  "feature_sidebar": {
+    "header": "Indicatori comunali"
+  },
+  "features_detail": [
+    {
+      "key": 0,
+      "featureInfo": [
+        {
+          "name": "COMUNE",
+          "label": "Comune"
+        },
+        {
+          "name": "PROVINCIA",
+          "label": "Provincia"
+        },
+        {
+          "name": "REGIONE",
+          "label": "Regione"
+        },
+	{
+          "name": "2023_superficie_kmq",
+          "label": "Superficie",
+	  "options": {
+            "suffix": "Kmq"
+          }
+        },     
+	{
+          "name": "zona_allerta",
+          "label": "Zona allerta"
+        },
+	{
+          "name": "popfr_p3p4",
+          "label": "Pop a rischio frana (P3-P4)",
+		  	  "options": {
+            "suffix": "abitanti"
+          }
+        },
+	{
+          "name": "pop_fr_p2",
+          "label": "Pop a rischio frana (P2)",
+		  	  "options": {
+            "suffix": "abitanti"
+          }
+        },
+	{
+          "name": "pop_fr_p1",
+          "label": "Pop a rischio frana (P1)",
+		  	  "options": {
+            "suffix": "abitanti"
+          }
+        },
+	{
+          "name": "popfrp3p4p",
+          "label": "%Pop a rischio frana (P3-P4)"
+        },
+	{
+          "name": "popfrp2_p",
+          "label": "%Pop a rischio frana (P2)"
+        },
+	{
+          "name": "popfrp1_p",
+          "label": "%Pop a rischio frana (P1)"
+        }
+    },
+	    {
+      "key": 1,
+      "featureInfo": [
+        {
+          "name": "COMUNE",
+          "label": "Comune"
+        },
+        {
+          "name": "PROVINCIA",
+          "label": "Provincia"
+        },
+        {
+          "name": "REGIONE",
+          "label": "Regione"
+        },
+	{
+          "name": "2023_superficie_kmq",
+          "label": "Superficie",
+	  "options": {
+            "suffix": "Kmq"
+          }
+        },     
+	{
+          "name": "zona_allerta",
+          "label": "Zona allerta"
+        },
+	{
+          "name": "popfr_p3p4",
+          "label": "Pop a rischio frana (P3-P4)",
+		  	  "options": {
+            "suffix": "abitanti"
+          }
+        },
+	{
+          "name": "pop_fr_p2",
+          "label": "Pop a rischio frana (P2)",
+		  	  "options": {
+            "suffix": "abitanti"
+          }
+        },
+	{
+          "name": "pop_fr_p1",
+          "label": "Pop a rischio frana (P1)",
+		  	  "options": {
+            "suffix": "abitanti"
+          }
+        },
+	{
+          "name": "popfrp3p4p",
+          "label": "%Pop a rischio frana (P3-P4)"
+        },
+	{
+          "name": "popfrp2_p",
+          "label": "%Pop a rischio frana (P2)"
+        },
+	{
+          "name": "popfrp1_p",
+          "label": "%Pop a rischio frana (P1)"
+        }
+    }
+	 ]
+  }
+],
+  "feature_table": {
+  "load_on_startup": false
+  },
+  "filter_config": {
+    "url": "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/allerte_BCR_filter_conf.json",
+    "refresh": true,
+    "filters_type": [
+      {
+        "filterFunction": "textInclude",
+        "binding_key": "Regione",
+        "operator": "and",
+        "filter_on_fields": [
+          "REGIONE"
+        ],
+        "layers": [
+          0,1,2
+        ]
+      },
+      {
+        "filterFunction": "textInclude",
+        "binding_key": "Provincia",
+        "operator": "and",
+        "filter_on_fields": [
+          "PROVINCIA"
+        ],
+        "layers": [
+          0
+        ]
+      },
+      {
+        "filterFunction": "textInclude",
+        "binding_key": "Comune",
+        "operator": "and",
+        "filter_on_fields": [
+          "COMUNE"
+        ],
+        "layers": [
+          0
+        ]
+      },
+	  {
+        "filter_function": "exactValue",
+        "binding_key": "zona_allerta",
+        "operator": "or",
+        "filter_on_fields": [
+          "zona_allerta"
+        ],
+        "layers": [
+         0,1,2
+        ]
+      },
+     {
+        "filter_function": "textInclude",
+        "binding_key": "codice_colore",
+        "operator": "or",
+        "filter_on_fields": [
+          "Criticita"
+        ],
+        "layers": [
+         0,1,2
+        ]
+      }
+    ]
+  }
+}
