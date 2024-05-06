@@ -10,7 +10,7 @@
       "type": "default",
       "children": [
         {
-          "selectable": false,
+          "selectable": true,
           "color": "#fff5f0",
 	      "description": "0-50 ab/kmq",
           "type": "icon",
