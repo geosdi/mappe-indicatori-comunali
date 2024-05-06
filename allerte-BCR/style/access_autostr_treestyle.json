@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "key": "0",
+      "label": "Accessibilità autostrade",
+      "filterKey": "tempi_percorr_min_autos",
+      "filterValue": "*",
+      "expanded": true,
+      "visible": true,
+      "type": "default",
+      "children": [
+        {
+          "selectable": false,
+          "color": "#f7fbff",
+	      "description": "0-15 min",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid; opacity:0.7"
+        },
+		{
+          "selectable": false,
+          "color": "#c8dcf0",
+	      "description": "15-30 min",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid; opacity:0.7"
+        },
+		{
+          "selectable": false,
+          "color": "#73b2d8",
+	      "description": "30-45 min",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid; opacity:0.7"
+        },
+		{
+          "selectable": false,
+          "color": "#2979b9",
+	      "description": "45-60 min",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid; opacity:0.7"
+        },
+		{
+          "selectable": false,
+          "color": "#08306b",
+	      "description": ">60 min",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid; opacity:0.7"
+        }
+      ]
+    },
+    {
+      "key": "1",
+      "label": "Zone allerta",
+      "filterKey": "SIGLA",
+      "filterValue": "*",
+      "expanded": true,
+      "visible": true,
+      "type": "default",
+      "children": [
+        {
+          "selectable": false,
+		  "description": "Allerta arancione",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 3px solid #f07c00"
+        },
+	  {
+          "selectable": false,
+		  "description": "Allerta rossa",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 3px solid #ff0000"
+        }    
+      ]
+     }
+  ]
+}
