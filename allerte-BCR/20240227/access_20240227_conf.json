@@ -85,7 +85,7 @@
         },         
 	{
           "name": "tempi_percorr_min_porti",
-          "label": "Tempo min accesso porto",
+          "label": "Tempo min accesso porto"
           }
         }
 	 ]
