@@ -1,0 +1,70 @@
+{
+    "style_properties": [
+      {
+        "propertyKey": "pop_idr_p3",
+        "properties": [
+            {
+                "property": "fillColor",
+                "values": [
+                  {
+                    "key": [0,250],
+                    "value": "#edf8fb"
+                  },
+                  {
+                    "key": [250,1000],
+                    "value": "#b3cde3"
+                  },
+                  {
+                    "key": [1000,2000],
+                    "value": "#8c96c6"
+                  },
+                  {
+                    "key": [2000,3500],
+                    "value": "#8856a7"
+                  },
+                  {
+                    "key": [3500],
+                    "value": "#810f7c"
+                  }
+                ]
+              },
+              {
+                "property": "weight",
+                "values": [
+                  {
+                    "key": "*",
+                    "value": "0.5"
+                  }
+                ]
+              },
+              {
+                "property": "opacity",
+                "values": [
+                  {
+                    "key": "*",
+                    "value": ".9"
+                  }
+                ]
+              },
+              {
+                "property": "fillOpacity",
+                "values": [
+                  {
+                    "key": "*",
+                    "value": ".7"
+                  }
+                ]
+              },
+              {
+                "property": "color",
+                "values": [
+                  {
+                    "key": "*",
+                    "value": "#cccccc"
+                  }
+                ]
+              }
+        ]
+      }
+    ]
+  }
