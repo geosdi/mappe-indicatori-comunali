@@ -2,7 +2,7 @@
   "nodes": [
     {
       "key": "0",
-      "label": "Comuni",
+      "label": "Densità popolazione",
       "filterKey": "densità_pop",
       "filterValue": "*",
       "expanded": true,
