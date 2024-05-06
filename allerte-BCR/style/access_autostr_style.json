@@ -1,7 +1,7 @@
 {
     "style_properties": [
       {
-        "propertyKey": "Densità popolazione (ab/kmq)",
+        "propertyKey": "tempi_percorr_min_autos",
         "properties": [
             {
                 "property": "fillColor",
