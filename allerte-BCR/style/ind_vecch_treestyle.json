@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "key": "0",
+      "label": "Indice vecchiaia",
+      "filterKey": "indice_vecchiaia",
+      "filterValue": "*",
+      "expanded": true,
+      "visible": true,
+      "type": "default",
+      "children": [
+        {
+          "selectable": false,
+          "color": "#f1eef6",
+	      "description": "0-100",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid; opacity:0.7"
+        },
+		{
+          "selectable": false,
+          "color": "#d7b5d8",
+	      "description": "100-200",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid; opacity:0.7"
+        },
+		{
+          "selectable": false,
+          "color": "#df65b0",
+	      "description": "200-300",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid; opacity:0.7"
+        },
+		{
+          "selectable": false,
+          "color": "#dd1c77",
+	      "description": "300-400",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid; opacity:0.7"
+        },
+		{
+          "selectable": false,
+          "color": "#980043",
+	      "description": ">400",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid; opacity:0.7"
+        }
+      ]
+    },
+    {
+      "key": "1",
+      "label": "Zone allerta",
+      "filterKey": "SIGLA",
+      "filterValue": "*",
+      "expanded": true,
+      "visible": true,
+      "type": "default",
+      "children": [
+        {
+          "selectable": false,
+		  "description": "Allerta arancione",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 3px solid #f07c00"
+        },
+	  {
+          "selectable": false,
+		  "description": "Allerta rossa",
+          "type": "icon",
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 3px solid #ff0000"
+        }    
+      ]
+     }
+  ]
+}
