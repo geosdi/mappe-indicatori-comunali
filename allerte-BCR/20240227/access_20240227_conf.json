@@ -73,19 +73,31 @@
         },
 	{
           "name": "tempi_percorr_min_autos",
-          "label": "Tempo min accesso autostrada"
+          "label": "Tempo min accesso autostrada",
+	  "options": {
+            "suffix": "minuti"
+          }
         },
 	{
           "name": "tempi_percorr_min_staz",
-          "label": "Tempo min accesso stazione"
+          "label": "Tempo min accesso stazione",
+	  "options": {
+            "suffix": "minuti"
+          }
         },
 	{
           "name": "tempi_percorr_min_aer",
-          "label": "Tempo min accesso aeroporto"
+          "label": "Tempo min accesso aeroporto",
+	  "options": {
+            "suffix": "minuti"
+          }
         },         
 	{
           "name": "tempi_percorr_min_porti",
-          "label": "Tempo min accesso porto"
+          "label": "Tempo min accesso porto",
+	  "options": {
+            "suffix": "minuti"
+          }
           }
         	 ]
   }
