@@ -73,13 +73,13 @@
           "selectable": false,
 		  "description": "Allerta arancione",
           "type": "icon",
-          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid #f07c00"
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 3px solid #f07c00"
         },
 	  {
           "selectable": false,
 		  "description": "Allerta rossa",
           "type": "icon",
-          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid #ff0000"
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 3px solid #ff0000"
         }    
       ]
      }
