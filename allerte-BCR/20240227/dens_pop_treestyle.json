@@ -71,17 +71,15 @@
       "children": [
         {
           "selectable": false,
-          "color": "#f07c00",
 		  "description": "Allerta arancione",
           "type": "icon",
-          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid"
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid #f07c00"
         },
 	  {
           "selectable": false,
-          "color": "#ff0000",
 		  "description": "Allerta rossa",
           "type": "icon",
-          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid"
+          "css_style": "height: 15px;width: 15px;display: inline-block; border: 1px solid #ff0000"
         }    
       ]
      }
