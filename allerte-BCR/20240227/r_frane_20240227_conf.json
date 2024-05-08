@@ -16,7 +16,7 @@
     },
     {
       "key": 2,
-      "label": "Zone allerta"
+      "label": "Zone allerta",
 	"visible": true
     }
   ],
