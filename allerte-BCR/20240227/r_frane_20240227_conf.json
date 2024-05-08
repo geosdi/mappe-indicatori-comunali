@@ -6,15 +6,18 @@
   "layers": [
     {
       "key": 0,
-      "label": "Comuni(dati assoluti)"
+      "label": "Comuni(dati assoluti)",
+      "visible": true
     },
     {
       "key": 1,
-      "label": "Comuni(dati %)"
+      "label": "Comuni(dati %)",
+	"visible": false
     },
     {
       "key": 2,
       "label": "Zone allerta"
+	"visible": true
     }
   ],
   "today": {
