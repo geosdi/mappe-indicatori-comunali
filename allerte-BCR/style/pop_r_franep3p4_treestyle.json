@@ -95,7 +95,7 @@
     {
       "key": "2",
       "label": "Zone allerta",
-      "filterKey": "Criticita",
+      "filterKey": "Nome_zona",
       "filterValue": "*",
       "expanded": true,
       "visible": true,
