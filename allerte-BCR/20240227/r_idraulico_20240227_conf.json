@@ -251,6 +251,17 @@
         "layers": [
          0,1,2
         ]
+      },
+      {
+        "operator": "and",
+        "filter_function": "equalOrSup",
+        "binding_key": "pop_r_idro_p3",
+        "filter_on_fields": [
+          "pop_idr_p3"
+        ],
+        "layers": [
+          0
+        ]
       }
     ]
   }
