@@ -251,6 +251,17 @@
         "layers": [
          0,1,2
         ]
+      },
+      {
+        "operator": "and",
+        "filter_function": "equalOrSup",
+        "binding_key": "pop_r_frane_p3p4",
+        "filter_on_fields": [
+          "popfr_p3p4"
+        ],
+        "layers": [
+          0,1
+        ]
       }
     ]
   }
