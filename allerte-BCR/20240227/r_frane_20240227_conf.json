@@ -194,7 +194,7 @@
   "load_on_startup": false
   },
   "filter_config": {
-    "url": "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/allerte_BCR_filter_conf.json",
+    "url": "https://raw.githubusercontent.com/geosdi/mappe-indicatori-comunali/main/allerte-BCR/allerte_BCR_filter_r_frane_conf.json",
     "refresh": true,
     "filters_type": [
       {
