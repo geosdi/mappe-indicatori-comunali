@@ -36,24 +36,28 @@
           "placeholder": "Pop rischio area P3 alluvioni",
           "binding_key": "pop_r_idro_p3",
           "options": [
-            {
-              "name": "500+",
+           {
+              "name": "1) oltre 100",
+              "value": "100.0"
+            }, 
+	    {
+              "name": "2) oltre 500",
               "value": "500.0"
             },
             {
-              "name": "1000+",
+              "name": "3) oltre 1000",
               "value": "1000.0"
             },
             {
-              "name": "5000+",
+              "name": "4) oltre 5000",
               "value": "5000.0"
             },
             {
-              "name": "15000+",
+              "name": "5) oltre 15000",
               "value": "15000.0"
             },
 			{
-              "name": "25000+",
+              "name": "6) oltre 25000",
               "value": "25000.0"
             }
           ]
