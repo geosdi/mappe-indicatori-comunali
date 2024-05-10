@@ -64,7 +64,7 @@
                 "values": [
                   {
                     "key": "*",
-                    "value": "black"
+                    "value": "#808080"
                   }
                 ]
               }
